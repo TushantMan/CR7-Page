@@ -38,7 +38,6 @@
   opacity: 0;
   transition: all 0.3s ease;
 }
-
 .scrollToTop-btn.active {
   right: 20px;
   opacity: 1;
