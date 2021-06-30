@@ -126,22 +126,6 @@
 .clubs li img:hover {
   transform: translateY(-10px);
 }
-.about {
-  padding-top: 40px;
-  background-color: #222;
-  color: #fff;
-}
-.about .content {
-  width: 80%;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.about .about-details {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 section .title {
   display: flex;
   justify-content: center;
@@ -163,42 +147,6 @@ section .title span::after {
   background: #1d1d1d;
   left: 0;
   bottom: 0;
-}
-.about .about-details .left {
-  width: 45%;
-}
-.about .left img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-}
-.about-details .right {
-  width: 50%;
-}
-.about .topic {
-  color: #de5762;
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-.about-details .right p {
-  text-align: justify;
-  color: #fff;
-  font-size: 18px;
-}
-.about .title {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-.about .title span {
-  color: #ffffff;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  padding-bottom: 8px;
 }
 section .title span::before,
 section .title span::after {
