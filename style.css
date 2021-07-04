@@ -271,8 +271,6 @@ section .title span::after {
 .sparkboxes .box4 {
   background: #1d1d1d;
 }
-
-/* fusionexport btn CSS START */
 #fusionexport-btn {
   min-width: 169px;
   min-height: 38px;
