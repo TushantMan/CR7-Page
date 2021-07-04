@@ -10,6 +10,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
     <link rel="icon" href="images/cr7 vid.jpg" />
   </head>
   <body>
@@ -61,6 +69,62 @@
     </section>
     <section class="stats" id="stats">
       <div class="title"><span>STATS</span></div>
+      <div id="wrapper">
+      <div class="content-area">
+        <div class="container-fluid">
+         
+          <div class="main">
+            <div class="row sparkboxes mt-4">
+              <div class="col-md-3">
+                <div class="box box1">
+                  <div class="details">
+                    <h3>118</h3>
+                    <h4>M.UNITED</h4>
+                  </div>
+                  <div id="spark1"></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="box box2">
+                  <div class="details">
+                    <h3>450</h3>
+                    <h4>R.MADRID</h4>
+                  </div>
+                  <div id="spark2"></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="box box3">
+                  <div class="details">
+                    <h3>101</h3>
+                    <h4>JUVENTUS</h4>
+                  </div>
+                  <div id="spark3"></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="box box4">
+                  <div class="details">
+                    <h3>109</h3>
+                    <h4>PORTUGAL</h4>
+                  </div>
+                  <div id="spark4"></div>
+                </div>
+              </div>
+            </div>
+
+           
+              <div class="col-md-7">
+                <div class="box shadow mt-4">
+                  <div id="line-adwords" class=""></div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       <div class="content">
         <div class="stats-details">
           <div class="right">
@@ -350,7 +414,8 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      
+       <div class="container">
         <div class="box">
           <img src="images/gal manu.jpg" />
           <span>Manchester United</span>
@@ -369,6 +434,7 @@
         </div>
       </div>
     </section>
+   
     <section class="play" id="play">
       <div class="content">
         <div class="title"><span>PLAYING STYLE</span></div>
@@ -452,6 +518,10 @@
       <p>© 2021 Cristiano Ronaldo. All images right reserved.</p>
     </footer>
     <script src="javascript/jQuery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- installing few libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
     <script src="javascript/main.js"></script>
   </body>
 </html>

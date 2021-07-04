@@ -216,15 +216,97 @@ section .title span::after {
   font-size: 17px;
   padding: 10px 30px;
 }
-.container {
+.stats .main .content-area {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+.main {
+  padding: 10px 80px !important;
+}
+.stats .main .box {
+  background-color: #2b2d3e;
+  padding: 25px 10px;
+}
+
+.stats .main .shadow {
+  box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+}
+.sparkboxes .box {
+  padding: 10px;
+  text-shadow: 0 1px 1px 1px #666;
+  box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+  position: relative;
+  border-radius: 0px;
+}
+
+.sparkboxes .box .details {
+  position: absolute;
+  color: #fff;
+  transform: scale(0.7) translate(-22px, 20px);
+}
+.sparkboxes strong {
+  position: relative;
+  z-index: 3;
+  top: -8px;
+  color: #fff;
+}
+.col-md-7 {
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 100% !important;
+  padding: 10px 0px !important;
+}
+.sparkboxes .box1 {
+  background: #1d1d1d;
+}
+
+.sparkboxes .box2 {
+  background: #1d1d1d;
+}
+
+.sparkboxes .box3 {
+  background: #1d1d1d;
+}
+
+.sparkboxes .box4 {
+  background: #1d1d1d;
+}
+
+/* fusionexport btn CSS START */
+#fusionexport-btn {
+  min-width: 169px;
+  min-height: 38px;
+  text-align: center;
+}
+
+#fusionexport-btn .span {
+  display: inline-block;
+}
+
+.spinner-border {
+  display: none;
+}
+
+#fusionexport-btn[disabled] {
+  cursor: wait;
+}
+
+#fusionexport-btn[disabled] .spinner-border {
+  display: inline-block;
+}
+
+#fusionexport-btn[disabled] .btn-text {
+  display: none;
+}
+.stats .container {
   display: flex;
   width: 100%;
-  padding: 4% 2%;
+  padding: 4% 0%;
   box-sizing: border-box;
   height: 100vh;
 }
 
-.box {
+.stats .container .box {
   flex: 1;
   overflow: hidden;
   transition: 1.5s;
@@ -233,14 +315,14 @@ section .title span::after {
   line-height: 0;
 }
 
-.box > img {
+.stats .container .box > img {
   width: 200%;
   height: calc(100% - 10vh);
   object-fit: cover;
   transition: 0.5s;
 }
 
-.box > span {
+.stats .container .box > span {
   font-size: 3.8vh;
   display: block;
   font-weight: 600;
@@ -249,11 +331,11 @@ section .title span::after {
   line-height: 2.6;
 }
 
-.box:hover {
+.stats .container .box:hover {
   flex: 1 1 50%;
 }
 
-.box:hover > img {
+.stats .container .box:hover > img {
   width: 100%;
   height: 100%;
 }
@@ -418,21 +500,7 @@ nav ul li.items {
   text-align: center;
   order: 3;
 }
-nav ul li.items:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 5px;
-  height: 2px;
-  width: 100%;
-  background: #fff;
-  opacity: 0;
-  transition: all 0.2s linear;
-}
-nav ul li.items:hover:after {
-  opacity: 1;
-  bottom: 8px;
-}
+
 nav ul li.logo {
   flex: 1;
   color: #fff;
@@ -563,6 +631,9 @@ nav ul li.btn.hide i:before {
   }
   .games-details .right p {
     font-size: 15px;
+  }
+  .main {
+    padding: 10px 0px !important;
   }
 }
 
