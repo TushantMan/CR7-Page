@@ -12,7 +12,6 @@
 - Compatible with all devices of different screen sizes and with a beautiful and pleasant user interface.
 
 
-
 ![cr7-website](images/preview.png)
 
 I don't own the photos used in this site. Cristiano Ronaldo (CR7) has all images right reserved
