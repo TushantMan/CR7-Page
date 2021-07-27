@@ -2,7 +2,7 @@
 
 ###  Responsive CR7 Website
 
-- CR7 website built using HTML, CSS & JAVASCRIPT.
+- CR7 website built using HTML, CSS, JAVASCRIPT & jQuery.
 - Contains interactive stats linegraph.
 - Includes beautiful images with played club details with stats.
 - Includes video on top goals of CR7.
