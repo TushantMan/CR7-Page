@@ -1,5 +1,7 @@
 # Responsive Cristiano Ronaldo Website
 
+## [See Live Preview](https://cr7-ronaldo.netlify.app/)
+
 ###  Responsive CR7 Website
 
 - CR7 website built using HTML, CSS, JAVASCRIPT & jQuery.
